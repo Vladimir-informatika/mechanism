@@ -55,7 +55,7 @@ protected:
     flecs::entity e03; // База ползуна
     flecs::entity e05; // База 5 звена
 
-    double scale = 300.0;
+    double scale = 200.0;
     Camera camera;
 
 
@@ -78,4 +78,3 @@ protected:
     glm::dvec2 p0, p03, p05; //База
     glm::dvec2 p1, p2, p2n, p3, p4, p5;
 };
-
