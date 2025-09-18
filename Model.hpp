@@ -40,8 +40,6 @@ protected:
     Texture createBaseSliderTexture();
     Texture createLinkTexture(double l);
     Texture createSliderTexture();
-    Texture create5LinkTexture();
-    Texture create5BaseTexture();
 
     // ECS
     flecs::world ecs;
@@ -80,3 +78,4 @@ protected:
     glm::dvec2 p0, p03, p05; //База
     glm::dvec2 p1, p2, p2n, p3, p4, p5;
 };
+
