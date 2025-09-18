@@ -103,7 +103,7 @@ void Model::initMechanism()
 
     this->l1  = 0.5;
     this->l2  = 1;
-    this->l2n = 2.5;
+    this->l2n = 10;
     this->l5 = 2.2;
     this->a3  = glm::radians(0.0);
     this->a4  = glm::radians(90.0);
